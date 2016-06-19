@@ -1,11 +1,8 @@
 ---
-- name: Install virtualenv
-  apt: name=python-virtualenv
-
-- name: Install psycopg2
-  apt: name=python-psycopg2
-
 - name: Install gevent
+  apt: name=python-gevent
+
+- name: Install python gevent
   apt: name=python-gevent
 
 - name: Install supervisor
